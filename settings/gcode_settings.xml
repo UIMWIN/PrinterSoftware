@@ -1,0 +1,10 @@
+<settings>
+    <button name="home">
+        <gcode>G28;</gcode>
+        <gcode>G1 Z5 F5000;</gcode>
+    </button>
+	<button name="home_x">
+        <gcode>G28 X0;</gcode>
+        <gcode>G1 Z5 F5000;</gcode>
+    </button>
+</settings>
